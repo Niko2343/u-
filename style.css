@@ -1,0 +1,138 @@
+
+.class{
+  background-image:url(pexels-martin-damboldt-814499.jpg);
+background-color: blue;
+width: 100%;
+height: 500px;
+text-align: center;
+justify-content: center;
+padding-top: 80px;
+}
+.Class{
+
+border: 1px solid blue;
+border-radius: 20px;
+background-color: rgb(139, 194, 67);
+margin-left: 600px;
+margin-right: 600px;
+text-align: center;
+justify-content: center;
+animation-name: test2;
+animation-duration: 2s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+.card{
+width: 100%;
+height: 250px;
+background-color: orangered;
+text-align: center;
+padding-top: 40px;
+color: white;
+
+animation-name: test;
+animation-duration: 5s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+.Myclass{
+border: 1px solid orangered;
+border-radius: 20px;
+margin-left: 600px;
+margin-right: 600px;
+text-align: center;
+justify-content:center ;
+background-color: white;
+color: black;
+animation-name: test3;
+animation-duration: 2s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+.MyClass{
+background-color: white;
+    width: 100%;
+height: 180px;
+padding-top: 80px;
+color: gray;
+text-align: center;
+border: 1px solid black;
+
+
+
+}
+.Card{
+border: 2px solid black;
+width:100%;
+background-color: blue;
+height: 220px;
+display: flex;
+
+}
+.mybutton{
+border: 1px solid black;
+width: 100%;
+background-color: rgb(66, 57, 57);
+height: 300px;
+text-align: center;
+animation-name: test5;
+animation-duration: 10s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+}
+
+.Mybutton{
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(175, 173, 173);
+  margin-left: 600px;
+  margin-right: 600px;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  animation-name: test4;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.wan{
+text-align: center;
+color: black;
+
+
+}
+
+@keyframes test{
+0%{background-color: orangered;}
+
+50%{background-color: orange;}
+
+
+
+}
+@keyframes test2{
+        from{background-color: (139, 194, 67);}      
+        to{background-color: green;}  
+}
+
+
+
+
+@keyframes test3{
+from{background-color: white;
+color: black;}
+to{background-color:white;
+color: white;}
+
+}
+@keyframes test4{
+from{background-color:rgb(66, 57, 57) ;   }
+to{background-color: rgb(158, 146, 146);}
+}
+@keyframes test5{
+ 25%{background-color:rgb(66, 57, 57)  ;}
+ 30%{background-color:rgb(158, 146, 146) ;}
+ 45%{background-color: rgb(173, 155, 155);}
+ 60%{background-color: rgb(88, 94, 69);}
+ 80%{background-color: rgba(36, 63, 25, 0.842);}
+}
